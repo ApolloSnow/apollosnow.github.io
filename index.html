@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apollo BETA</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-content">
+            <div class="nav-left">
+                SYS.STATUS: OFFLINE
+            </div>
+            <div class="nav-right">
+                <a href="index.html">HOME</a>
+                <a href="about.html">ABOUT</a>
+                <a href="projects.html">PROJECTS</a>
+                <a href="contact.html">CONTACT</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="main-content">
+        <div class="grid">
+            <!-- Left Column -->
+            <div class="bot-container">
+                <div class="corner-tl"></div>
+                <div class="corner-br"></div>
+                <div class="ai-bot">APOLLO INTERFACE ACTIVITY</div>
+                <div id="time-display"></div>
+                <div class="bot-interface">
+                    <div class="canvas-container">
+                        <canvas id="bot-canvas"></canvas>
+                        <div class="canvas-text"></div>
+                    </div>
+                    <div class="bot-text">
+                        <div id="bot-message" class="message-overlay"></div>
+                    </div>
+                </div>                
+            </div>
+
+            <!-- Right Column -->
+            <div class="status-panels">
+                <div class="panel">
+                    <div class="panel-header">
+                        <h3>S Y S T E M M E T R I C S</h3>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-bar-fill"></div>
+                        <div class="metric-label">SYSTEM PERFORMANCE: 98.7%</div>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-bar-fill"></div>
+                        <div class="metric-label">NETWORK STABILITY: 99.2%</div>
+                    </div>
+                </div>
+
+                <div class="panel">
+                    <div class="panel-header">
+                        <h3>S E C U R I T Y S T A T U S</h3>
+                    </div>
+                    <div class="security-grid">
+                        <div class="security-item">
+                            F I R E W A L L
+                            <br>
+                            <span class="status-indicator">[ ACTIVE ]</span>
+                            <br>
+                            <span class="status-details">Last Update: 2024-11-16</span>
+                        </div>
+                        <div class="security-item">
+                            E N C R Y P T I O N
+                            <br>
+                            <span class="status-indicator">[ ENABLED ]</span>
+                            <br>
+                            <span class="status-details">AES-256 Protocol</span>
+                        </div>
+                        <div class="security-item">
+                            T H R E A T S
+                            <br>
+                            <span class="status-indicator">[ MONITORED ]</span>
+                            <br>
+                            <span class="status-details">0 Active Threats</span>
+                        </div>
+                        <div class="security-item">
+                            A C C E S S
+                            <br>
+                            <span class="status-indicator">[ SECURED ]</span>
+                            <br>
+                            <span class="status-details">2FA Required</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel">
+                    <div class="panel-header">
+                        <h3>S Y S T E M L O G S</h3>
+                    </div>
+                    <div class="log-entries">
+                        <div class="log-entry">[ 16:42:03 ] System scan completed</div>
+                        <div class="log-entry">[ 16:40:18 ] Security protocols updated</div>
+                        <div class="log-entry">[ 16:35:55 ] Network check: OK</div>
+                        <div class="log-entry">[ 16:30:00 ] System startup initiated</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Jazmine L. Programmer & Cybersecurity</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lucide/0.263.1/umd/lucide.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
